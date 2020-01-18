@@ -1,0 +1,39 @@
+#genButton{
+    background-color:maroon;
+    border: none;
+    border-radius: 20px;
+}
+#copyButton{
+    background-color: lightgrey;
+    border: none;
+    border-radius: 20px;
+}
+h1{
+    font-size: 2.4em;
+}
+button{
+    font-size: 8%;
+}
+.jumbotron{
+    background-color: white;
+}
+#jumboTitle{
+    font-size: 1.5em;
+}
+#passwordContainer{
+    border-style: dashed;
+    border-color:grey;
+    color: grey;
+}
+hr{
+    size: 20px;
+}
+#outerContainer{
+    border-style: solid;
+    border-color: lightgrey;
+}
+#genPassword{
+    color: black;
+    word-wrap: break-word;
+    font-size: 1.5em;
+}

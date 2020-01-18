@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Password Generator</title>
+</head>
+<body class="bg-light">
+    <div class="row justify-content-center text-center">
+        <div class="col-sm-8 col-lg-6">
+            <h1 class="my-5">Password Generator</h1>
+            <div class="jumbotron pt-3" id="outerContainer">
+                <div class="text-left" id="jumboTitle">Generate a password</div>
+                <hr class="my-3">
+                <div class="jumbotron pt-3 mb-2" id="passwordContainer">
+                    <div>Your Secure Password</div>
+                    <div class="mt-5"id="genPassword"></div>
+                </div>
+                <hr class="my-3">
+                <div>
+                    <button class="btn btn-primary float-left m" id="genButton">Generate Password</button>
+                    <button class="btn btn-primary float-right" id="copyButton">Copy to Clipboard</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
